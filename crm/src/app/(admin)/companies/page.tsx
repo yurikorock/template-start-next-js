@@ -12,10 +12,7 @@ export interface PageProps {}
 export default function Page({}: PageProps) {
   return (
     <>
-      <Header>Companies</Header>
-      <Toolbar action={<AddCompanyButton />}>
-        <SearchInput />
-      </Toolbar>
+      
       <CompanyTable>
         <CompanyRow
           id={1}
@@ -24,7 +21,7 @@ export default function Page({}: PageProps) {
           status={Status.Pending}
           promotion={true}
           country={'USA'}
-          joinedDate={'22.09.2025'}
+          joinedDate={'09.25.2025'}
         />
       </CompanyTable>
     </>
